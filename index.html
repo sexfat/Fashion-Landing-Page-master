@@ -9,6 +9,17 @@
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,900&display=swap" rel="stylesheet">
   <!-- css -->
+   <!-- icons -->
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <!-- three js -->
+  <!-- <script src="imagesloaded.pkgd.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js"
+    integrity="sha256-3mBEX8I0uMLF7+AUjJeTCelosuorzYpqwBMBPDTyQqY=" crossorigin="anonymous"></script>
+    <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+    integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+  <!-- hover-effect js -->
+  <script src="./hover-effect.umd.js" ></script>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -76,26 +87,18 @@
 
     <!-- DISTORTION
     =============================== -->
-    <div class="distortion"></div>
+    <div class="distortion">
+    </div>
 
   </div>
 
 
-  <!-- icons -->
-  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-  <!-- gsap -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
-    integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
-  <!-- three js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js"
-    integrity="sha256-3mBEX8I0uMLF7+AUjJeTCelosuorzYpqwBMBPDTyQqY=" crossorigin="anonymous"></script>
-  <!-- hover-effect js -->
-  <script src="./hover-effect.umd.js"></script>
+ 
 
   <script>
     new hoverEffect({
       parent: document.querySelector('.distortion'),
-      intensity: 0.2,
+      intensity: 0.6,
       image1: './images/01.png',
       image2: './images/02.png',
       displacementImage: './images/diss.png',
